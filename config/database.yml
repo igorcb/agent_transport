@@ -1,0 +1,25 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: i4
+  password: q2w3e4
+  port: 5432
+  host: localhost #177.70.27.63
+
+  # For details on connection pooling, see Rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: agent_transport_development
+
+test:
+  <<: *default
+  database: agent_transport_test
+
+production:
+  <<: *default
+  database: agent_transport_production
+  username: agent_transport
+  password: <%= ENV['AGENT_TRANSPORT_DATABASE_PASSWORD'] %>
