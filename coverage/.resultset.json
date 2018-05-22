@@ -1,0 +1,56 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/igor/workspace/rails_app/agent_transport/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/helpers/home_helper.rb": [
+        1,
+        null
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/models/client.rb": [
+        1,
+        null
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/controllers/home_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/igor/workspace/rails_app/agent_transport/app/jobs/application_job.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1527014313
+  }
+}
