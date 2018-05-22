@@ -11,6 +11,12 @@
       ],
       "/home/igor/workspace/rails_app/agent_transport/app/models/client.rb": [
         1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/home/igor/workspace/rails_app/agent_transport/app/models/application_record.rb": [
@@ -51,6 +57,6 @@
         0
       ]
     },
-    "timestamp": 1527014313
+    "timestamp": 1527014869
   }
 }
