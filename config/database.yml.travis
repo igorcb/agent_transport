@@ -1,0 +1,6 @@
+test:
+  adapter: postgresql
+  database: agent_transport_test
+  encoding: unicode
+  username: postgres
+  password: postgres
