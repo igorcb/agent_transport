@@ -47,3 +47,6 @@ plugins:
   enabled: true
  brakeman:
   enabled: true
+exclude_patterns:
+- "app/assets/javascripts/cable.js"
+- "app/channels/application_cable/channel.rb"
